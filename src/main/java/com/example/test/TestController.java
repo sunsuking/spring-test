@@ -6,7 +6,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/user")
-@CrossOrigin(origins = {"http://localhost:3000", "https://testprojects.ttalkak.com/user"})
+@CrossOrigin(origins = {"http://localhost:3000", "https://testprojects.ttalkak.com"})
 public class TestController {
     private final UserRepository userRepository;
 
